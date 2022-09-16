@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/objectType.xsd">
+	<import>
+		<!-- box controller -->
+		<type>
+			<name>com.uz.wcf.box.anniversary</name>
+			<definitionname>com.woltlab.wcf.boxController</definitionname>
+			<classname>wcf\system\box\AnniversaryBoxController</classname>
+		</type>
+		
+		<!-- box controller conditions -->
+		<type>
+			<name>com.uz.wcf.box.anniversary.banned</name>
+			<definitionname>com.uz.wcf.box.anniversary.condition</definitionname>
+			<classname>wcf\system\condition\anniversary\AnniversaryBannedCondition</classname>
+		</type>
+		<type>
+			<name>com.uz.wcf.box.anniversary.disabled</name>
+			<definitionname>com.uz.wcf.box.anniversary.condition</definitionname>
+			<classname>wcf\system\condition\anniversary\AnniversaryDisabledCondition</classname>
+		</type>
+		
+		<type>
+			<name>com.uz.wcf.box.anniversary.lastActivity</name>
+			<definitionname>com.uz.wcf.box.anniversary.condition</definitionname>
+			<classname>wcf\system\condition\anniversary\AnniversaryLastActivityCondition</classname>
+		</type>
+		
+		<type>
+			<name>com.uz.wcf.box.anniversary.fuzzy</name>
+			<definitionname>com.uz.wcf.box.anniversary.condition</definitionname>
+			<classname>wcf\system\condition\anniversary\AnniversaryFuzzyCondition</classname>
+		</type>
+		<type>
+			<name>com.uz.wcf.box.anniversary.year</name>
+			<definitionname>com.uz.wcf.box.anniversary.condition</definitionname>
+			<classname>wcf\system\condition\anniversary\AnniversaryYearCondition</classname>
+		</type>
+	</import>
+</data>
