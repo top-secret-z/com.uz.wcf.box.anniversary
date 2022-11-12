@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
-	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.boxController.com.uz.wcf.box.anniversary"><![CDATA[Heutige Jubiläen]]></item>
-		<item name="wcf.acp.box.anniversary.condition.banned"><![CDATA[Gesperrte Benutzer ausschließen]]></item>
-		<item name="wcf.acp.box.anniversary.condition.disabled"><![CDATA[Deaktivierte Benutzer ausschließen]]></item>
-		<item name="wcf.acp.box.anniversary.condition.fuzzy"><![CDATA[Unschärfe]]></item>
-		<item name="wcf.acp.box.anniversary.condition.fuzzy.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier an, wie viele Tage vor (positive Werte rechts, weniger als) und nach (negative Werte links, mehr als) dem tatsächlichen Jubiläum der Benutzer angezeigt werden soll.]]></item>
-		<item name="wcf.acp.box.anniversary.condition.lastActivity"><![CDATA[Letzte Aktivität]]></item>
-		<item name="wcf.acp.box.anniversary.condition.lastActivity.description"><![CDATA[Mitglieder müssen in der zurückliegenden Anzahl von Tagen aktiv gewesen sein.]]></item>
-		<item name="wcf.acp.box.anniversary.condition.year"><![CDATA[Jahre]]></item>
-		<item name="wcf.acp.box.anniversary.condition.year.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier an, bei wie viel Jahren Mitgliedschaft der Benutzer angezeigt werden soll.]]></item>
-		<item name="wcf.acp.box.anniversary.registrationDate"><![CDATA[Registrierung]]></item>
-		<item name="wcf.acp.box.anniversary.username"><![CDATA[Benutzername]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.wcf.box.anniversary"><![CDATA[Heutige Jubiläen]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.user.profile.canViewUserAnniversaries"><![CDATA[Kann Jubiläen der Mitglieder sehen]]></item>
-	</category>
-	
-	<category name="wcf.user">
-		<item name="wcf.user.box.anniversary.years"><![CDATA[{$years} {if $years==1}Jahr{else}Jahre{/if}]]></item>
-	</category>
+    <category name="wcf.acp.box">
+        <item name="wcf.acp.box.boxController.com.uz.wcf.box.anniversary"><![CDATA[Heutige Jubiläen]]></item>
+        <item name="wcf.acp.box.anniversary.condition.banned"><![CDATA[Gesperrte Benutzer ausschließen]]></item>
+        <item name="wcf.acp.box.anniversary.condition.disabled"><![CDATA[Deaktivierte Benutzer ausschließen]]></item>
+        <item name="wcf.acp.box.anniversary.condition.fuzzy"><![CDATA[Unschärfe]]></item>
+        <item name="wcf.acp.box.anniversary.condition.fuzzy.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier an, wie viele Tage vor (positive Werte rechts, weniger als) und nach (negative Werte links, mehr als) dem tatsächlichen Jubiläum der Benutzer angezeigt werden soll.]]></item>
+        <item name="wcf.acp.box.anniversary.condition.lastActivity"><![CDATA[Letzte Aktivität]]></item>
+        <item name="wcf.acp.box.anniversary.condition.lastActivity.description"><![CDATA[Mitglieder müssen in der zurückliegenden Anzahl von Tagen aktiv gewesen sein.]]></item>
+        <item name="wcf.acp.box.anniversary.condition.year"><![CDATA[Jahre]]></item>
+        <item name="wcf.acp.box.anniversary.condition.year.description"><![CDATA[{if LANGUAGE_USE_INFORMAL_VARIANT}Gebe{else}Geben Sie{/if} hier an, bei wie viel Jahren Mitgliedschaft der Benutzer angezeigt werden soll.]]></item>
+        <item name="wcf.acp.box.anniversary.registrationDate"><![CDATA[Registrierung]]></item>
+        <item name="wcf.acp.box.anniversary.username"><![CDATA[Benutzername]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.wcf.box.anniversary"><![CDATA[Heutige Jubiläen]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.user.profile.canViewUserAnniversaries"><![CDATA[Kann Jubiläen der Mitglieder sehen]]></item>
+    </category>
+
+    <category name="wcf.user">
+        <item name="wcf.user.box.anniversary.years"><![CDATA[{$years} {if $years==1}Jahr{else}Jahre{/if}]]></item>
+    </category>
 </language>
